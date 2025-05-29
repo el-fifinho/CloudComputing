@@ -1,0 +1,7 @@
+Flask==2.3.2
+gunicorn==21.2.0
+requests
+google-cloud-translate
+google-api-python-client
+werkzeug==2.3.7
+pymysql==1.0.2

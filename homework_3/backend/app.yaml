@@ -1,0 +1,6 @@
+runtime: python310  # Choose the appropriate Python version (adjust based on your app)
+
+entrypoint: gunicorn -b :$PORT app:app  # This runs your Flask app with Gunicorn
+
+env_variables:
+  FLASK_ENV: 'production'  # Set to production for the live environment

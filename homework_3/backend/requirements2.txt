@@ -1,0 +1,7 @@
+Flask==2.3
+google-cloud-speech
+google-cloud-translate
+google-cloud-storage
+mysql-connector-python
+yt-dlp
+flask_cors

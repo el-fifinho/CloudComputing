@@ -1,0 +1,20 @@
+# project structure:
+#
+# project-auth-service/
+# ├── app/
+# │   ├── __init__.py
+# │   ├── main.py
+# │   ├── core/
+# │   │   ├── config.py
+# │   │   └── security.py
+# │   ├── models.py
+# │   ├── schemas.py
+# │   ├── crud.py
+# │   ├── database.py
+# │   ├── routers/
+# │   │   ├── auth.py
+# │   │   └── users.py
+# │   └── dependencies.py
+# ├── .env
+# ├── requirements.txt
+# └── Dockerfile

@@ -1,0 +1,9 @@
+# services/sportfields-service/.gitignore
+.venv/
+__pycache__/
+*.py[cod]
+alembic.ini
+alembic/
+tests/
+.env
+testdbconn.py
